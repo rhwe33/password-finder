@@ -25,3 +25,18 @@ body {
 .password {
   margin: 0;
 }
+
+.password.active {
+  /* border: 1px solid; */
+}
+
+#selector {
+  position: fixed;
+  left: -999px;
+  top: -999px;
+  width: 140px;
+  height: 22px;
+  background: yellow;
+  transition: all 0.5s ease-in-out;
+  z-index: -1;
+}
